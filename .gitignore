@@ -141,3 +141,8 @@ yarn-debug.log*
 *.so
 *.dylib
 *.o
+
+# =====================
+# Project analysis (internal doc, not for repo)
+# =====================
+analisis-proyecto.md
