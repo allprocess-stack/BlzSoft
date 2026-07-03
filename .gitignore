@@ -1,0 +1,45 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages (restored via packages.config)
+packages/
+!BlzSoft/packages.config
+
+# Visual Studio
+.vs/
+*.csproj.user
+*.csproj.DotSettings.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstats
+*.sln.sqlite
+*.tlog
+
+# Installer project output
+BkzSoft_install/
+
+# Signing keys
+*.pfx
+*.snk
+
+# ClickOnce publish
+**/app.publish/
+
+# OS files
+Thumbs.db
+*.DS_Store
+Desktop.ini
+
+# IDE files (Rider, VS Code, etc.)
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local

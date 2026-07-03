@@ -1,0 +1,463 @@
+﻿namespace BlzSoft
+{
+    partial class w_outputEvent
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(w_outputEvent));
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtPeso = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtFecha = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtPesoIn = new System.Windows.Forms.TextBox();
+            this.txtCliente = new System.Windows.Forms.TextBox();
+            this.txtConductor = new System.Windows.Forms.TextBox();
+            this.txtProducto = new System.Windows.Forms.TextBox();
+            this.txtObservaciones = new System.Windows.Forms.TextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnGuardar = new System.Windows.Forms.Button();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.txtPesoNet = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.chkFijarPeso = new System.Windows.Forms.CheckBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.txtPlaca = new System.Windows.Forms.TextBox();
+            this.txtTicket = new System.Windows.Forms.TextBox();
+            this.chkPesajeManual = new System.Windows.Forms.CheckBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(296, 328);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(196, 25);
+            this.label1.TabIndex = 106;
+            this.label1.Text = "PESO SALIDA (Kg)";
+            // 
+            // txtPeso
+            // 
+            this.txtPeso.BackColor = System.Drawing.SystemColors.Desktop;
+            this.txtPeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPeso.ForeColor = System.Drawing.Color.Lime;
+            this.txtPeso.Location = new System.Drawing.Point(296, 360);
+            this.txtPeso.Name = "txtPeso";
+            this.txtPeso.ReadOnly = true;
+            this.txtPeso.Size = new System.Drawing.Size(144, 38);
+            this.txtPeso.TabIndex = 105;
+            this.txtPeso.Text = "0";
+            this.txtPeso.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtUsuario
+            // 
+            this.txtUsuario.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtUsuario.Location = new System.Drawing.Point(136, 272);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.ReadOnly = true;
+            this.txtUsuario.Size = new System.Drawing.Size(152, 20);
+            this.txtUsuario.TabIndex = 98;
+            // 
+            // txtFecha
+            // 
+            this.txtFecha.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtFecha.Location = new System.Drawing.Point(136, 240);
+            this.txtFecha.Name = "txtFecha";
+            this.txtFecha.ReadOnly = true;
+            this.txtFecha.Size = new System.Drawing.Size(152, 20);
+            this.txtFecha.TabIndex = 97;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(24, 272);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(58, 16);
+            this.label9.TabIndex = 94;
+            this.label9.Text = "Usuario:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(24, 242);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(104, 16);
+            this.label8.TabIndex = 93;
+            this.label8.Text = "Fecha creacion:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(24, 194);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(88, 16);
+            this.label7.TabIndex = 92;
+            this.label7.Text = "Observacion:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(24, 162);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(65, 16);
+            this.label6.TabIndex = 91;
+            this.label6.Text = "Producto:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(24, 128);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(72, 16);
+            this.label5.TabIndex = 90;
+            this.label5.Text = "Conductor:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(24, 98);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(120, 16);
+            this.label2.TabIndex = 87;
+            this.label2.Text = "Cliente/Proveedor:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(304, 244);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(85, 13);
+            this.label4.TabIndex = 110;
+            this.label4.Text = "Peso de entrada";
+            // 
+            // txtPesoIn
+            // 
+            this.txtPesoIn.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtPesoIn.Location = new System.Drawing.Point(408, 240);
+            this.txtPesoIn.Name = "txtPesoIn";
+            this.txtPesoIn.ReadOnly = true;
+            this.txtPesoIn.Size = new System.Drawing.Size(88, 20);
+            this.txtPesoIn.TabIndex = 111;
+            // 
+            // txtCliente
+            // 
+            this.txtCliente.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtCliente.Location = new System.Drawing.Point(163, 96);
+            this.txtCliente.Name = "txtCliente";
+            this.txtCliente.ReadOnly = true;
+            this.txtCliente.Size = new System.Drawing.Size(365, 20);
+            this.txtCliente.TabIndex = 114;
+            // 
+            // txtConductor
+            // 
+            this.txtConductor.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtConductor.Location = new System.Drawing.Point(136, 128);
+            this.txtConductor.Name = "txtConductor";
+            this.txtConductor.ReadOnly = true;
+            this.txtConductor.Size = new System.Drawing.Size(392, 20);
+            this.txtConductor.TabIndex = 116;
+            // 
+            // txtProducto
+            // 
+            this.txtProducto.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtProducto.Location = new System.Drawing.Point(136, 160);
+            this.txtProducto.Name = "txtProducto";
+            this.txtProducto.ReadOnly = true;
+            this.txtProducto.Size = new System.Drawing.Size(392, 20);
+            this.txtProducto.TabIndex = 117;
+            // 
+            // txtObservaciones
+            // 
+            this.txtObservaciones.BackColor = System.Drawing.Color.White;
+            this.txtObservaciones.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtObservaciones.Location = new System.Drawing.Point(136, 192);
+            this.txtObservaciones.Multiline = true;
+            this.txtObservaciones.Name = "txtObservaciones";
+            this.txtObservaciones.Size = new System.Drawing.Size(392, 34);
+            this.txtObservaciones.TabIndex = 96;
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 300;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::BlzSoft.Properties.Resources.truck;
+            this.pictureBox1.Location = new System.Drawing.Point(32, 320);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(240, 136);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 107;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btnGuardar
+            // 
+            this.btnGuardar.Image = ((System.Drawing.Image)(resources.GetObject("btnGuardar.Image")));
+            this.btnGuardar.Location = new System.Drawing.Point(296, 408);
+            this.btnGuardar.Name = "btnGuardar";
+            this.btnGuardar.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnGuardar.Size = new System.Drawing.Size(112, 48);
+            this.btnGuardar.TabIndex = 99;
+            this.btnGuardar.Text = "   Guardar";
+            this.btnGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnGuardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Checked = true;
+            this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox1.Location = new System.Drawing.Point(413, 63);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(123, 17);
+            this.checkBox1.TabIndex = 118;
+            this.checkBox1.Text = "Ver reporte de salida";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
+            this.btnSalir.Location = new System.Drawing.Point(424, 408);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(104, 48);
+            this.btnSalir.TabIndex = 119;
+            this.btnSalir.Text = "Cancelar";
+            this.btnSalir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
+            // txtPesoNet
+            // 
+            this.txtPesoNet.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtPesoNet.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPesoNet.Location = new System.Drawing.Point(408, 272);
+            this.txtPesoNet.Name = "txtPesoNet";
+            this.txtPesoNet.ReadOnly = true;
+            this.txtPesoNet.Size = new System.Drawing.Size(88, 20);
+            this.txtPesoNet.TabIndex = 120;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(304, 276);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(66, 13);
+            this.label10.TabIndex = 121;
+            this.label10.Text = "Peso Neto";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(24, 64);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(153, 16);
+            this.label11.TabIndex = 126;
+            this.label11.Text = "Numero de Guia / Ticket";
+            // 
+            // txtID
+            // 
+            this.txtID.BackColor = System.Drawing.Color.Navy;
+            this.txtID.ForeColor = System.Drawing.SystemColors.Window;
+            this.txtID.Location = new System.Drawing.Point(437, 23);
+            this.txtID.Name = "txtID";
+            this.txtID.ReadOnly = true;
+            this.txtID.Size = new System.Drawing.Size(88, 20);
+            this.txtID.TabIndex = 124;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(405, 25);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(21, 16);
+            this.label13.TabIndex = 123;
+            this.label13.Text = "ID";
+            // 
+            // chkFijarPeso
+            // 
+            this.chkFijarPeso.AutoSize = true;
+            this.chkFijarPeso.Location = new System.Drawing.Point(456, 376);
+            this.chkFijarPeso.Name = "chkFijarPeso";
+            this.chkFijarPeso.Size = new System.Drawing.Size(72, 17);
+            this.chkFijarPeso.TabIndex = 127;
+            this.chkFijarPeso.Text = "Fijar Peso";
+            this.chkFijarPeso.UseVisualStyleBackColor = true;
+            this.chkFijarPeso.CheckedChanged += new System.EventHandler(this.chkFijarPeso_CheckedChanged);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(24, 24);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(92, 15);
+            this.label12.TabIndex = 129;
+            this.label12.Text = "Unidad (Placa):";
+            // 
+            // txtPlaca
+            // 
+            this.txtPlaca.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.txtPlaca.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.txtPlaca.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtPlaca.Location = new System.Drawing.Point(136, 24);
+            this.txtPlaca.Name = "txtPlaca";
+            this.txtPlaca.Size = new System.Drawing.Size(234, 20);
+            this.txtPlaca.TabIndex = 0;
+            this.txtPlaca.TextChanged += new System.EventHandler(this.txtPlaca_TextChanged);
+            // 
+            // txtTicket
+            // 
+            this.txtTicket.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.txtTicket.Location = new System.Drawing.Point(200, 64);
+            this.txtTicket.Name = "txtTicket";
+            this.txtTicket.ReadOnly = true;
+            this.txtTicket.Size = new System.Drawing.Size(170, 20);
+            this.txtTicket.TabIndex = 131;
+            // 
+            // chkPesajeManual
+            // 
+            this.chkPesajeManual.AutoSize = true;
+            this.chkPesajeManual.Enabled = false;
+            this.chkPesajeManual.Location = new System.Drawing.Point(32, 464);
+            this.chkPesajeManual.Name = "chkPesajeManual";
+            this.chkPesajeManual.Size = new System.Drawing.Size(173, 17);
+            this.chkPesajeManual.TabIndex = 135;
+            this.chkPesajeManual.Text = "HABILITAR PESAJE MANUAL";
+            this.chkPesajeManual.UseVisualStyleBackColor = true;
+            this.chkPesajeManual.Visible = false;
+            this.chkPesajeManual.CheckedChanged += new System.EventHandler(this.chkPesajeManual_CheckedChanged);
+            // 
+            // w_outputEvent
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(561, 497);
+            this.Controls.Add(this.chkPesajeManual);
+            this.Controls.Add(this.txtTicket);
+            this.Controls.Add(this.txtPlaca);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.chkFijarPeso);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.txtID);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.txtPesoNet);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.txtProducto);
+            this.Controls.Add(this.txtConductor);
+            this.Controls.Add(this.txtCliente);
+            this.Controls.Add(this.txtPesoIn);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtPeso);
+            this.Controls.Add(this.btnGuardar);
+            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.txtFecha);
+            this.Controls.Add(this.txtObservaciones);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label2);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "w_outputEvent";
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Registro de salida";
+            this.Load += new System.EventHandler(this.w_outputEvent_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtPeso;
+        private System.Windows.Forms.Button btnGuardar;
+        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtFecha;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtPesoIn;
+        private System.Windows.Forms.TextBox txtCliente;
+        private System.Windows.Forms.TextBox txtConductor;
+        private System.Windows.Forms.TextBox txtProducto;
+        private System.Windows.Forms.TextBox txtObservaciones;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.TextBox txtPesoNet;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.CheckBox chkFijarPeso;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox txtPlaca;
+        private System.Windows.Forms.TextBox txtTicket;
+        private System.Windows.Forms.CheckBox chkPesajeManual;
+    }
+}

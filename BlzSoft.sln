@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlzSoft", "BlzSoft\BlzSoft.csproj", "{EE01CDC4-EDFE-40D9-ADCF-2460AAA47AF5}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BkzSoft_install", "BkzSoft_install\BkzSoft_install.vdproj", "{E94D68C3-A1B6-44F6-8469-A3A94CA7FC66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE01CDC4-EDFE-40D9-ADCF-2460AAA47AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE01CDC4-EDFE-40D9-ADCF-2460AAA47AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE01CDC4-EDFE-40D9-ADCF-2460AAA47AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE01CDC4-EDFE-40D9-ADCF-2460AAA47AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94D68C3-A1B6-44F6-8469-A3A94CA7FC66}.Debug|Any CPU.ActiveCfg = Debug
+		{E94D68C3-A1B6-44F6-8469-A3A94CA7FC66}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A979A402-4F67-4735-AEC6-F1BD33EAC53B}
+	EndGlobalSection
+EndGlobal
