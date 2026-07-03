@@ -139,4 +139,4 @@ Al ejecutar por primera vez, configurar:
 
 ## Licencia
 
-Todos los derechos reservados — COMERSA INGENIERIA E.I.R.L.
+Todos los derechos reservados — ALL PROCCESS S.A.C
