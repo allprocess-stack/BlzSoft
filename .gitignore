@@ -1,12 +1,32 @@
+# =====================
 # Build outputs
+# =====================
 [Bb]in/
 [Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.lib
+*.exp
+*.nupkg
+*.msi
+*.msp
+*.appx
 
-# NuGet packages (restored via packages.config)
+# =====================
+# NuGet packages
+# =====================
 packages/
 !BlzSoft/packages.config
+*.nuget.targets
+*.nuget.props
 
+# =====================
 # Visual Studio
+# =====================
 .vs/
 *.csproj.user
 *.csproj.DotSettings.user
@@ -16,30 +36,108 @@ packages/
 *.sln.docstats
 *.sln.sqlite
 *.tlog
+*.log
+*.tmp
+*.sdf
+*.opendb
+*.opensdf
+*.unsuccessfulbuild
+*.[Cc]ache
+*.ipch/
+UpgradeLog*.htm
+upgrade-assistant-*/
 
+# =====================
+# ReSharper / JetBrains
+# =====================
+_ReSharper*/
+*.[Rr]e[Ss]harper.*
+*.DotSettings
+
+# =====================
 # Installer project output
+# =====================
 BkzSoft_install/
 
-# Signing keys
+# =====================
+# Signing keys / Secrets
+# =====================
 *.pfx
 *.snk
+*.sn
+*.p12
+*.cer
 
+# =====================
 # ClickOnce publish
+# =====================
 **/app.publish/
 
+# =====================
 # OS files
+# =====================
 Thumbs.db
 *.DS_Store
 Desktop.ini
+*.desktop
+ehthumbs.db
+*.trashes
+*.Spotlight-V100
 
+# =====================
 # IDE files (Rider, VS Code, etc.)
+# =====================
 .idea/
 .vscode/
 *.swp
 *.swo
 *~
+*.sublime-workspace
+*.sublime-project
 
+# =====================
 # Environment files
+# =====================
 .env
 .env.local
 .env.*.local
+
+# =====================
+# Logs / Temp / Backup
+# =====================
+*.log
+*.tmp
+*.bak
+*.backup
+*.old
+*.orig
+
+# =====================
+# Python (in case any scripts exist)
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =====================
+# Node (in case any tooling exists)
+# =====================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# =====================
+# Test results
+# =====================
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# =====================
+# Other
+# =====================
+*.cache
+*.a
+*.so
+*.dylib
+*.o
